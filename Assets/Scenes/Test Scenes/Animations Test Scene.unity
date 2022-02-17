@@ -2698,10 +2698,10 @@ MonoBehaviour:
         affect_Stance: 0
         Stances: []
         TransitionFrom: 
-      Status: 0
+      Status: 2
       abilityTime:
         UseConstant: 1
-        ConstantValue: 1
+        ConstantValue: 3
         Variable: {fileID: 0}
       ChargeCurve:
         serializedVersion: 2
