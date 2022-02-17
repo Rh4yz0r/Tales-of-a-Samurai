@@ -3617,6 +3617,31 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
+--- !u!1101 &-966719770844274625
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Interrupted
+  m_Conditions:
+  - m_ConditionMode: 6
+    m_ConditionEvent: ModeStatus
+    m_EventTreshold: -2
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 7179593112519619933}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1109 &-825866915471515169
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -5929,8 +5954,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 7432738495560975081}
   - {fileID: -3104721170116921471}
+  - {fileID: -966719770844274625}
   m_StateMachineBehaviours:
   - {fileID: -3022517753312315331}
   m_Position: {x: 50, y: 50, z: 0}
@@ -16609,9 +16634,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 0
-  ExitMode: 1
+  ExitMode: 0
   ExitOnAbility: 0
-  ExitAbility: 1
+  ExitAbility: 10
 --- !u!1101 &5325446010341501936
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -17539,31 +17564,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnEnter: 2
---- !u!1101 &7432738495560975081
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Interrupted
-  m_Conditions:
-  - m_ConditionMode: 6
-    m_ConditionEvent: ModeStatus
-    m_EventTreshold: -2
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 7179593112519619933}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 0
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
 --- !u!1102 &7469467955855154811
 AnimatorState:
   serializedVersion: 6
