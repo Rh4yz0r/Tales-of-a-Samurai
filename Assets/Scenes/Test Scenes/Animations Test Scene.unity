@@ -2698,7 +2698,7 @@ MonoBehaviour:
         affect_Stance: 0
         Stances: []
         TransitionFrom: 
-      Status: 2
+      Status: 4
       abilityTime:
         UseConstant: 1
         ConstantValue: 3
