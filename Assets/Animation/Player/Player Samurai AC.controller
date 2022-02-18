@@ -3800,7 +3800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackTrigger: 6
   AttackActivation:
-    minValue: 0
+    minValue: 0.08
     maxValue: 0.5
 --- !u!1101 &-599540229987819254
 AnimatorStateTransition:
@@ -13337,15 +13337,15 @@ AnimatorStateMachine:
   - first: {fileID: 0}
     second:
     - {fileID: 1109395460470985678}
-  - first: {fileID: 1107179802896869280}
-    second:
-    - {fileID: 1109334461652214112}
   - first: {fileID: 1107502102949257218}
     second:
     - {fileID: 1109696400206414900}
   - first: {fileID: 1107983092355862436}
     second:
     - {fileID: 1109106407123090194}
+  - first: {fileID: 1107179802896869280}
+    second:
+    - {fileID: 1109334461652214112}
   m_StateMachineBehaviours:
   - {fileID: -3095755819276348444}
   m_AnyStatePosition: {x: 250, y: -190, z: 0}
@@ -13389,12 +13389,12 @@ AnimatorStateMachine:
   - first: {fileID: 1107712516030286084}
     second:
     - {fileID: 2461072082253586533}
-  - first: {fileID: -116550868565403405}
-    second:
-    - {fileID: 8476934213546272788}
   - first: {fileID: 630981864946724360}
     second:
     - {fileID: -8847518047498435079}
+  - first: {fileID: -116550868565403405}
+    second:
+    - {fileID: 8476934213546272788}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 170, y: -100, z: 0}
   m_EntryPosition: {x: 200, y: 110, z: 0}
@@ -13664,21 +13664,24 @@ AnimatorStateMachine:
   - {fileID: -8378104910647559346}
   - {fileID: -2563633934699085204}
   m_StateMachineTransitions:
-  - first: {fileID: 1107575968228998442}
-    second:
-    - {fileID: 1109757864082561892}
   - first: {fileID: 1107587008717819978}
     second:
     - {fileID: 1109875883353409524}
+  - first: {fileID: 1107575968228998442}
+    second:
+    - {fileID: 1109757864082561892}
   - first: {fileID: 1107095588754503736}
     second:
     - {fileID: 1109517166829480238}
-  - first: {fileID: 1107110482266308828}
-    second:
-    - {fileID: 1109187610157705692}
   - first: {fileID: 1107741146500525128}
     second:
     - {fileID: 1109083010469254750}
+  - first: {fileID: 1107110482266308828}
+    second:
+    - {fileID: 1109187610157705692}
+  - first: {fileID: 9034141415195466872}
+    second:
+    - {fileID: 6407620126748742479}
   - first: {fileID: 5206566767825159218}
     second:
     - {fileID: 4693700556072078549}
@@ -13688,9 +13691,6 @@ AnimatorStateMachine:
   - first: {fileID: 6853967293220475753}
     second:
     - {fileID: -3797284631335727341}
-  - first: {fileID: 9034141415195466872}
-    second:
-    - {fileID: 6407620126748742479}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -210, y: -180, z: 0}
   m_EntryPosition: {x: -180, y: -70, z: 0}
@@ -17465,7 +17465,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Charged Slice Part 3
-  m_Speed: 0.7
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6885497837611177104}
@@ -17481,7 +17481,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ade90329ab3d60742bfdf6b46ce12ed9, type: 3}
+  m_Motion: {fileID: 7400000, guid: 19b6394a6d2c38940973c651bc16fbdc, type: 3}
   m_Tag: Attack1
   m_SpeedParameter: 
   m_MirrorParameter: 
