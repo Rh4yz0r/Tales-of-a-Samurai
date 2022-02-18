@@ -3800,7 +3800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackTrigger: 6
   AttackActivation:
-    minValue: 0.08
+    minValue: 0.07
     maxValue: 0.5
 --- !u!1101 &-599540229987819254
 AnimatorStateTransition:
