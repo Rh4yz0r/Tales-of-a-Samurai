@@ -47,9 +47,9 @@ namespace MalbersAnimations.Controller
             if (ModeID == null)  { Debug.LogError("Mode behaviour needs an ID"); return; }
             if (ModeOwner == null) { Debug.LogError($"There's no [{ModeID.name}] mode on your character"); return; }
 
+            ActiveAbility = ModeOwner.ActiveAbility;
             if (animal.ModeStatus == Int_ID.Loop) return;            //Means is Looping so Skip!!!
 
-            ActiveAbility = ModeOwner.ActiveAbility;
             if (EnterMode)   ModeOwner.AnimationTagEnter();
         }
 

@@ -16634,7 +16634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   EnterMode: 0
-  ExitMode: 0
+  ExitMode: 1
   ExitOnAbility: 0
   ExitAbility: 10
 --- !u!1101 &5325446010341501936
