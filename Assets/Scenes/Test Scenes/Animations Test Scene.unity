@@ -1940,7 +1940,7 @@ MonoBehaviour:
   Editor_Tabs1: 3
   Editor_Tabs2: 4
   Editor_EventTabs: 0
-  SelectedMode: 4
+  SelectedMode: 3
   SelectedState: 2
   debugStates: 0
   debugModes: 0
@@ -2449,6 +2449,111 @@ MonoBehaviour:
     ResetToDefault: 0
     allowRotation: 1
     allowMovement: 1
+    OnEnterMode:
+      m_PersistentCalls:
+        m_Calls: []
+    OnExitMode:
+      m_PersistentCalls:
+        m_Calls: []
+    m_Source: {fileID: 0}
+    ActivationTime: 0
+  - active: 1
+    ignoreLowerModes: 1
+    Input: 
+    ID: {fileID: 11400000, guid: 7b08991ff6605a6409a4857c2fcd94a2, type: 2}
+    modifier: {fileID: 0}
+    CoolDown:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    Abilities:
+    - active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      Name: Block
+      Index:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      Input:
+        UseConstant: 1
+        ConstantValue: Block
+        Variable: {fileID: 0}
+      audioClip:
+        UseConstant: 1
+        ConstantValue: {fileID: 0}
+        Variable: {fileID: 0}
+      ClipDelay:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      audioSource: {fileID: 0}
+      modifier: {fileID: 0}
+      Limits:
+        affect: 1
+        affectStates:
+        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
+        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
+        affect_Stance: 0
+        Stances: []
+        TransitionFrom: 
+      Status: 1
+      abilityTime:
+        UseConstant: 1
+        ConstantValue: 3
+        Variable: {fileID: 0}
+      ChargeCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ChargeValue:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      OnEnter:
+        m_PersistentCalls:
+          m_Calls: []
+      OnExit:
+        m_PersistentCalls:
+          m_Calls: []
+      OnCharged:
+        m_PersistentCalls:
+          m_Calls: []
+    m_AbilityIndex:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+    DefaultIndex:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+    OnAbilityIndex:
+      m_PersistentCalls:
+        m_Calls: []
+    ResetToDefault: 0
+    allowRotation: 0
+    allowMovement: 0
     OnEnterMode:
       m_PersistentCalls:
         m_Calls: []
@@ -3251,103 +3356,6 @@ MonoBehaviour:
       OnEnter:
         m_PersistentCalls:
           m_Calls: []
-      OnExit:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 1784885965}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-      OnCharged:
-        m_PersistentCalls:
-          m_Calls: []
-    - active:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      Name: Block
-      Index:
-        UseConstant: 1
-        ConstantValue: 11
-        Variable: {fileID: 0}
-      Input:
-        UseConstant: 1
-        ConstantValue: Block
-        Variable: {fileID: 0}
-      audioClip:
-        UseConstant: 0
-        ConstantValue: {fileID: 0}
-        Variable: {fileID: 11400000, guid: 2ad52fcfc50e83248856f7180449df91, type: 2}
-      ClipDelay:
-        UseConstant: 1
-        ConstantValue: 0.25
-        Variable: {fileID: 0}
-      audioSource: {fileID: 0}
-      modifier: {fileID: 0}
-      Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
-        TransitionFrom: 
-      Status: 1
-      abilityTime:
-        UseConstant: 1
-        ConstantValue: 5
-        Variable: {fileID: 0}
-      ChargeCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      ChargeValue:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      OnEnter:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 1784885965}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
       OnExit:
         m_PersistentCalls:
           m_Calls:
@@ -5238,19 +5246,7 @@ MonoBehaviour:
     ResetOnDisable: 1
     OnInputDown:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1923305878}
-          m_TargetAssemblyTypeName: MalbersAnimations.Controller.ComboManager, Assembly-CSharp
-          m_MethodName: Play
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 4
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
     OnInputUp:
       m_PersistentCalls:
         m_Calls: []
@@ -5277,7 +5273,7 @@ MonoBehaviour:
     OnPressedNormalized:
       m_PersistentCalls:
         m_Calls: []
-  showInputEvents: 0
+  showInputEvents: 1
   OnInputEnabled:
     m_PersistentCalls:
       m_Calls: []
@@ -27922,17 +27918,6 @@ MonoBehaviour:
       PreviewsAbility: 9
       Ability: 10
       Branch: 3
-      Used: 0
-      Finisher: 1
-      OnSequencePlay:
-        m_PersistentCalls:
-          m_Calls: []
-    - Activation:
-        minValue: 0
-        maxValue: 0
-      PreviewsAbility: 0
-      Ability: 11
-      Branch: 4
       Used: 0
       Finisher: 1
       OnSequencePlay:
