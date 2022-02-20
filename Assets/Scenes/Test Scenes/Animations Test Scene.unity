@@ -450,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716552348135480979, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
@@ -549,7 +549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716552348135480979, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
@@ -2616,224 +2616,6 @@ MonoBehaviour:
         UseConstant: 1
         ConstantValue: 1
         Variable: {fileID: 0}
-      Name: Sword Draw Stance
-      Index:
-        UseConstant: 1
-        ConstantValue: 9
-        Variable: {fileID: 0}
-      Input:
-        UseConstant: 1
-        ConstantValue: 
-        Variable: {fileID: 0}
-      audioClip:
-        UseConstant: 0
-        ConstantValue: {fileID: 0}
-        Variable: {fileID: 11400000, guid: 2ad52fcfc50e83248856f7180449df91, type: 2}
-      ClipDelay:
-        UseConstant: 1
-        ConstantValue: 0.25
-        Variable: {fileID: 0}
-      audioSource: {fileID: 0}
-      modifier: {fileID: 0}
-      Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
-        TransitionFrom: 
-      Status: 4
-      abilityTime:
-        UseConstant: 1
-        ConstantValue: 3
-        Variable: {fileID: 0}
-      ChargeCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      ChargeValue:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      OnEnter:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 8297767639549239429}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 8206401621855099817}
-            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-            m_MethodName: Play
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-          - m_Target: {fileID: 1784885965}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-      OnExit:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 8297767639549239429}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-          - m_Target: {fileID: 8206401621855099817}
-            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-            m_MethodName: Stop
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-      OnCharged:
-        m_PersistentCalls:
-          m_Calls: []
-    - active:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      Name: Sword Draw Slice
-      Index:
-        UseConstant: 1
-        ConstantValue: 10
-        Variable: {fileID: 0}
-      Input:
-        UseConstant: 1
-        ConstantValue: 
-        Variable: {fileID: 0}
-      audioClip:
-        UseConstant: 0
-        ConstantValue: {fileID: 0}
-        Variable: {fileID: 11400000, guid: 2ad52fcfc50e83248856f7180449df91, type: 2}
-      ClipDelay:
-        UseConstant: 1
-        ConstantValue: 0.25
-        Variable: {fileID: 0}
-      audioSource: {fileID: 0}
-      modifier: {fileID: 0}
-      Limits:
-        affect: 1
-        affectStates:
-        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
-        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
-        affect_Stance: 0
-        Stances: []
-        TransitionFrom: 
-      Status: 0
-      abilityTime:
-        UseConstant: 1
-        ConstantValue: 5
-        Variable: {fileID: 0}
-      ChargeCurve:
-        serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 1
-          value: 1
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 34
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      ChargeValue:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
-      OnEnter:
-        m_PersistentCalls:
-          m_Calls: []
-      OnExit:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 1784885965}
-            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_MethodName: SetActive
-            m_Mode: 6
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 1
-            m_CallState: 2
-      OnCharged:
-        m_PersistentCalls:
-          m_Calls: []
-    - active:
-        UseConstant: 1
-        ConstantValue: 1
-        Variable: {fileID: 0}
       Name: Combo1-1
       Index:
         UseConstant: 1
@@ -3263,6 +3045,224 @@ MonoBehaviour:
       Index:
         UseConstant: 1
         ConstantValue: 8
+        Variable: {fileID: 0}
+      Input:
+        UseConstant: 1
+        ConstantValue: 
+        Variable: {fileID: 0}
+      audioClip:
+        UseConstant: 0
+        ConstantValue: {fileID: 0}
+        Variable: {fileID: 11400000, guid: 2ad52fcfc50e83248856f7180449df91, type: 2}
+      ClipDelay:
+        UseConstant: 1
+        ConstantValue: 0.25
+        Variable: {fileID: 0}
+      audioSource: {fileID: 0}
+      modifier: {fileID: 0}
+      Limits:
+        affect: 1
+        affectStates:
+        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
+        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
+        affect_Stance: 0
+        Stances: []
+        TransitionFrom: 
+      Status: 0
+      abilityTime:
+        UseConstant: 1
+        ConstantValue: 5
+        Variable: {fileID: 0}
+      ChargeCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ChargeValue:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      OnEnter:
+        m_PersistentCalls:
+          m_Calls: []
+      OnExit:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1784885965}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      OnCharged:
+        m_PersistentCalls:
+          m_Calls: []
+    - active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      Name: Sword Draw Stance
+      Index:
+        UseConstant: 1
+        ConstantValue: 9
+        Variable: {fileID: 0}
+      Input:
+        UseConstant: 1
+        ConstantValue: 
+        Variable: {fileID: 0}
+      audioClip:
+        UseConstant: 0
+        ConstantValue: {fileID: 0}
+        Variable: {fileID: 11400000, guid: 2ad52fcfc50e83248856f7180449df91, type: 2}
+      ClipDelay:
+        UseConstant: 1
+        ConstantValue: 0.25
+        Variable: {fileID: 0}
+      audioSource: {fileID: 0}
+      modifier: {fileID: 0}
+      Limits:
+        affect: 1
+        affectStates:
+        - {fileID: 11400000, guid: 7370df9c769c2764381ad7c76eb3d949, type: 2}
+        - {fileID: 11400000, guid: 3787b6d94d5454740bf36d57436185b0, type: 2}
+        affect_Stance: 0
+        Stances: []
+        TransitionFrom: 
+      Status: 4
+      abilityTime:
+        UseConstant: 1
+        ConstantValue: 3
+        Variable: {fileID: 0}
+      ChargeCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ChargeValue:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      OnEnter:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8297767639549239429}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 8206401621855099817}
+            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+            m_MethodName: Play
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 1784885965}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      OnExit:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8297767639549239429}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 8206401621855099817}
+            m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
+            m_MethodName: Stop
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      OnCharged:
+        m_PersistentCalls:
+          m_Calls: []
+    - active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      Name: Sword Draw Slice
+      Index:
+        UseConstant: 1
+        ConstantValue: 10
         Variable: {fileID: 0}
       Input:
         UseConstant: 1
@@ -6670,7 +6670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716552348135480979, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
@@ -27519,7 +27519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716552348135480979, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
@@ -28577,10 +28577,10 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - Activation:
-        minValue: 0.35
+        minValue: 0.15
         maxValue: 0.85
       PreviewsAbility: 1
-      Ability: 2
+      Ability: 5
       Branch: 0
       Used: 0
       Finisher: 0
@@ -28588,9 +28588,9 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - Activation:
-        minValue: 0.55
+        minValue: 0.15
         maxValue: 0.85
-      PreviewsAbility: 2
+      PreviewsAbility: 5
       Ability: 3
       Branch: 0
       Used: 0
@@ -28599,30 +28599,8 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - Activation:
-        minValue: 0.3
+        minValue: 0.15
         maxValue: 0.85
-      PreviewsAbility: 1
-      Ability: 4
-      Branch: 1
-      Used: 0
-      Finisher: 0
-      OnSequencePlay:
-        m_PersistentCalls:
-          m_Calls: []
-    - Activation:
-        minValue: 0.5
-        maxValue: 0.85
-      PreviewsAbility: 4
-      Ability: 5
-      Branch: 1
-      Used: 0
-      Finisher: 0
-      OnSequencePlay:
-        m_PersistentCalls:
-          m_Calls: []
-    - Activation:
-        minValue: 0.4
-        maxValue: 0.9
       PreviewsAbility: 5
       Ability: 6
       Branch: 1
@@ -28632,10 +28610,54 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - Activation:
-        minValue: 0.55
-        maxValue: 1
+        minValue: 0.15
+        maxValue: 0.85
       PreviewsAbility: 6
       Ability: 7
+      Branch: 1
+      Used: 0
+      Finisher: 0
+      OnSequencePlay:
+        m_PersistentCalls:
+          m_Calls: []
+    - Activation:
+        minValue: 0.15
+        maxValue: 0.85
+      PreviewsAbility: 7
+      Ability: 8
+      Branch: 0
+      Used: 0
+      Finisher: 1
+      OnSequencePlay:
+        m_PersistentCalls:
+          m_Calls: []
+    - Activation:
+        minValue: 0.15
+        maxValue: 0.85
+      PreviewsAbility: 1
+      Ability: 12
+      Branch: 1
+      Used: 0
+      Finisher: 0
+      OnSequencePlay:
+        m_PersistentCalls:
+          m_Calls: []
+    - Activation:
+        minValue: 0.15
+        maxValue: 0.85
+      PreviewsAbility: 12
+      Ability: 13
+      Branch: 0
+      Used: 0
+      Finisher: 0
+      OnSequencePlay:
+        m_PersistentCalls:
+          m_Calls: []
+    - Activation:
+        minValue: 0.15
+        maxValue: 0.85
+      PreviewsAbility: 13
+      Ability: 14
       Branch: 1
       Used: 0
       Finisher: 1
@@ -28646,16 +28668,49 @@ MonoBehaviour:
         minValue: 0
         maxValue: 0
       PreviewsAbility: 0
-      Ability: 8
+      Ability: 15
       Branch: 1
+      Used: 0
+      Finisher: 0
+      OnSequencePlay:
+        m_PersistentCalls:
+          m_Calls: []
+    - Activation:
+        minValue: 0.15
+        maxValue: 0.85
+      PreviewsAbility: 15
+      Ability: 16
+      Branch: 1
+      Used: 0
+      Finisher: 0
+      OnSequencePlay:
+        m_PersistentCalls:
+          m_Calls: []
+    - Activation:
+        minValue: 0.15
+        maxValue: 0.85
+      PreviewsAbility: 16
+      Ability: 17
+      Branch: 0
+      Used: 0
+      Finisher: 0
+      OnSequencePlay:
+        m_PersistentCalls:
+          m_Calls: []
+    - Activation:
+        minValue: 0.15
+        maxValue: 0.85
+      PreviewsAbility: 17
+      Ability: 18
+      Branch: 0
       Used: 0
       Finisher: 1
       OnSequencePlay:
         m_PersistentCalls:
           m_Calls: []
     - Activation:
-        minValue: 0
-        maxValue: 0
+        minValue: 0.15
+        maxValue: 0.85
       PreviewsAbility: 0
       Ability: 9
       Branch: 3
@@ -28665,8 +28720,8 @@ MonoBehaviour:
         m_PersistentCalls:
           m_Calls: []
     - Activation:
-        minValue: 0
-        maxValue: 1
+        minValue: 0.15
+        maxValue: 0.85
       PreviewsAbility: 9
       Ability: 10
       Branch: 3
@@ -59414,8 +59469,8 @@ MonoBehaviour:
   PivotPosDir: 0
   showStates: 1
   ModeShowEvents: 1
-  Editor_Tabs1: 3
-  Editor_Tabs2: 4
+  Editor_Tabs1: 4
+  Editor_Tabs2: 0
   Editor_EventTabs: 0
   SelectedMode: 2
   SelectedState: 2
@@ -70260,7 +70315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716552348135480979, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f761bc68c6ae8e40974ef1c33ccbc4d, type: 3}
