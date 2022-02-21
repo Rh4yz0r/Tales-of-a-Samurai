@@ -15,11 +15,11 @@ MonoBehaviour:
   description: Activate a Mode on the Animal
   active: 1
   delay: 0
-  fullName: "Mode \u2192 Activate [Damage]"
+  fullName: "Mode \u2192 Activate [Damage Special]"
   type: 0
-  ID: {fileID: 11400000, guid: b04409080ae7e3c4fa645d8c67b40424, type: 2}
+  ID: {fileID: 11400000, guid: 44203ff5811d4214aa055a28b5a0a793, type: 2}
   action: {fileID: 0}
-  ModeAbility: 3
+  ModeAbility: 1
   coolDown: 0
   abilityStatus: 0
   AbilityTime: 3

@@ -2198,7 +2198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55ab18b2853af874d9e29a0851427b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackTrigger: 3
+  AttackTrigger: 4
   AttackActivation:
     minValue: 0.2
     maxValue: 0.5
@@ -2702,6 +2702,22 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
+--- !u!114 &-4699504446801038049
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ab18b2853af874d9e29a0851427b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackTrigger: 5
+  AttackActivation:
+    minValue: 0.2
+    maxValue: 0.5
 --- !u!1102 &-4691260732958379597
 AnimatorState:
   serializedVersion: 6
@@ -19051,6 +19067,7 @@ AnimatorState:
   m_StateMachineBehaviours:
   - {fileID: -5454368194987032042}
   - {fileID: -9115116279571119591}
+  - {fileID: -4699504446801038049}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 1
   m_WriteDefaultValues: 1
