@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12ae562118d00441ae7f73c1bb7c6da, type: 3}
-  m_Name: Damaged Kick
+  m_Name: Damaged Stab
   m_EditorClassIdentifier: 
   description: Activate a Mode on the Animal
   active: 1
@@ -19,10 +19,10 @@ MonoBehaviour:
   type: 0
   ID: {fileID: 11400000, guid: 44203ff5811d4214aa055a28b5a0a793, type: 2}
   action: {fileID: 0}
-  ModeAbility: 2
+  ModeAbility: 3
   coolDown: 0
   abilityStatus: 0
-  AbilityTime: 10
+  AbilityTime: 3
   ShowAction: 0
   ShowCooldown: 0
   ShowStatus: 1

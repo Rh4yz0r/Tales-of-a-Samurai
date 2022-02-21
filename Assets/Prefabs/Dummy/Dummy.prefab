@@ -1258,8 +1258,8 @@ MonoBehaviour:
   PivotPosDir: 0
   showStates: 1
   ModeShowEvents: 1
-  Editor_Tabs1: 0
-  Editor_Tabs2: 4
+  Editor_Tabs1: 4
+  Editor_Tabs2: 0
   Editor_EventTabs: 0
   SelectedMode: 3
   SelectedState: 2
