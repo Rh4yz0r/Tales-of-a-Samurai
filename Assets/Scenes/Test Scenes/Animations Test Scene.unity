@@ -123,268 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &17592778
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 17592779}
-  - component: {fileID: 17592783}
-  - component: {fileID: 17592782}
-  - component: {fileID: 17592781}
-  - component: {fileID: 17592780}
-  m_Layer: 2
-  m_Name: Attack Trigger RSword Big
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &17592779
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17592778}
-  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
-  m_LocalPosition: {x: 1.02, y: 0.34, z: -1.18}
-  m_LocalScale: {x: 6.262238, y: 5, z: 5}
-  m_Children: []
-  m_Father: {fileID: 1784885966}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
---- !u!114 &17592780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17592778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ImpulseDefinition:
-    m_ImpulseChannel: 1
-    m_ImpulseShape: 2
-    m_CustomImpulseShape:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ImpulseDuration: 0.2
-    m_ImpulseType: 0
-    m_DissipationRate: 0.25
-    m_RawSignal: {fileID: 0}
-    m_AmplitudeGain: 1
-    m_FrequencyGain: 1
-    m_RepeatMode: 0
-    m_Randomize: 1
-    m_TimeEnvelope:
-      m_AttackShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_DecayShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_AttackTime: 0
-      m_SustainTime: 0.2
-      m_DecayTime: 0.7
-      m_ScaleWithImpact: 1
-      m_HoldForever: 0
-    m_ImpactRadius: 100
-    m_DirectionMode: 0
-    m_DissipationMode: 2
-    m_DissipationDistance: 100
-    m_PropagationSpeed: 343
-  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
---- !u!114 &17592781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17592778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 99674937}
-  parent: 18
-  LocalPos:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  LocalRot:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  PosOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
-  RotOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
---- !u!65 &17592782
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17592778}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.35, y: 0.2, z: 0.2}
-  m_Center: {x: -0.35, y: 0, z: 0}
---- !u!114 &17592783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17592778}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 6
-  m_Active:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  m_hitLayer:
-    UseConstant: 0
-    ConstantValue:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
-  triggerInteraction: 1
-  owner: {fileID: 0}
-  m_HitEffect:
-    UseConstant: 1
-    ConstantValue: {fileID: 569260381}
-    Variable: {fileID: 0}
-  DestroyHitEffect: 0
-  interactorID:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  dontHitOwner:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  CustomReaction: {fileID: 0}
-  interact:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  react:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  pureDamage:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  statModifier:
-    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
-    modify: 3
-    Value:
-      UseConstant: 1
-      ConstantValue: 10
-      Variable: {fileID: 0}
-  m_cChance:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  cMultiplier:
-    UseConstant: 1
-    ConstantValue: 2
-    Variable: {fileID: 0}
-  m_Force:
-    UseConstant: 1
-    ConstantValue: 50
-    Variable: {fileID: 0}
-  forceMode: 0
-  OnHit:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 17592780}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: GenerateImpulse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnHitPosition:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHitInteractable:
-    m_PersistentCalls:
-      m_Calls: []
-  animator: {fileID: 99674937}
-  AnimatorSpeed:
-    UseConstant: 1
-    ConstantValue: 0.05
-    Variable: {fileID: 0}
-  AnimatorStopTime:
-    UseConstant: 1
-    ConstantValue: 0.2
-    Variable: {fileID: 0}
-  debug: 0
-  Trigger: {fileID: 17592782}
-  SelfStatEnter:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  SelfStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  EnemyStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  OnAttackBegin:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAttackEnd:
-    m_PersistentCalls:
-      m_Calls: []
-  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
-  Editor_Tabs1: 1
 --- !u!1001 &20424262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1076,6 +814,268 @@ CapsuleCollider:
   m_Height: 1.5
   m_Direction: 1
   m_Center: {x: 0, y: 1.1, z: 0}
+--- !u!1 &83709414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83709415}
+  - component: {fileID: 83709419}
+  - component: {fileID: 83709418}
+  - component: {fileID: 83709417}
+  - component: {fileID: 83709416}
+  m_Layer: 2
+  m_Name: Attack Trigger RSword Stab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83709415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83709414}
+  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
+  m_LocalPosition: {x: 1.0134, y: 0.34100997, z: -0.63088}
+  m_LocalScale: {x: 3.3639197, y: 0.7220299, z: 0.72203004}
+  m_Children: []
+  m_Father: {fileID: 1784885966}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
+--- !u!114 &83709416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83709414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 2
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 0
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 0}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 100
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
+--- !u!114 &83709417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83709414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 99674937}
+  parent: 18
+  LocalPos:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  LocalRot:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  PosOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+  RotOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+--- !u!65 &83709418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83709414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 0.2, z: 0.2}
+  m_Center: {x: -0.35, y: 0, z: 0}
+--- !u!114 &83709419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83709414}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 8
+  m_Active:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_hitLayer:
+    UseConstant: 0
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
+  triggerInteraction: 1
+  owner: {fileID: 0}
+  m_HitEffect:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  DestroyHitEffect: 0
+  interactorID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  dontHitOwner:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  CustomReaction: {fileID: 11400000, guid: e08d307043fa48e44a91b6eba5f48a8e, type: 2}
+  interact:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  react:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  pureDamage:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  statModifier:
+    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
+    modify: 3
+    Value:
+      UseConstant: 1
+      ConstantValue: 10
+      Variable: {fileID: 0}
+  m_cChance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  cMultiplier:
+    UseConstant: 1
+    ConstantValue: 2
+    Variable: {fileID: 0}
+  m_Force:
+    UseConstant: 1
+    ConstantValue: 50
+    Variable: {fileID: 0}
+  forceMode: 0
+  OnHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 83709416}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: GenerateImpulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnHitPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHitInteractable:
+    m_PersistentCalls:
+      m_Calls: []
+  animator: {fileID: 99674937}
+  AnimatorSpeed:
+    UseConstant: 1
+    ConstantValue: 0.05
+    Variable: {fileID: 0}
+  AnimatorStopTime:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  debug: 0
+  Trigger: {fileID: 83709418}
+  SelfStatEnter:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  SelfStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  EnemyStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  OnAttackBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAttackEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
+  Editor_Tabs1: 2
 --- !u!1 &99674928
 GameObject:
   m_ObjectHideFlags: 0
@@ -12520,268 +12520,6 @@ MonoBehaviour:
   text: All Audio Sources are stored here.
   reference: {fileID: 0}
   ShowDescription: 0
---- !u!1 &513359022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 513359023}
-  - component: {fileID: 513359027}
-  - component: {fileID: 513359026}
-  - component: {fileID: 513359025}
-  - component: {fileID: 513359024}
-  m_Layer: 2
-  m_Name: Attack Trigger RSword UpperCut
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &513359023
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513359022}
-  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
-  m_LocalPosition: {x: 1.0134, y: 0.34101, z: -0.63088}
-  m_LocalScale: {x: 3.3639207, y: 0.7220342, z: 0.7220342}
-  m_Children: []
-  m_Father: {fileID: 1784885966}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
---- !u!114 &513359024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513359022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ImpulseDefinition:
-    m_ImpulseChannel: 1
-    m_ImpulseShape: 2
-    m_CustomImpulseShape:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ImpulseDuration: 0.2
-    m_ImpulseType: 0
-    m_DissipationRate: 0.25
-    m_RawSignal: {fileID: 0}
-    m_AmplitudeGain: 1
-    m_FrequencyGain: 1
-    m_RepeatMode: 0
-    m_Randomize: 1
-    m_TimeEnvelope:
-      m_AttackShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_DecayShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_AttackTime: 0
-      m_SustainTime: 0.2
-      m_DecayTime: 0.7
-      m_ScaleWithImpact: 1
-      m_HoldForever: 0
-    m_ImpactRadius: 100
-    m_DirectionMode: 0
-    m_DissipationMode: 2
-    m_DissipationDistance: 100
-    m_PropagationSpeed: 343
-  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
---- !u!114 &513359025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513359022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 99674937}
-  parent: 18
-  LocalPos:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  LocalRot:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  PosOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
-  RotOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
---- !u!65 &513359026
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513359022}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.35, y: 0.2, z: 0.2}
-  m_Center: {x: -0.35, y: 0, z: 0}
---- !u!114 &513359027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513359022}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 7
-  m_Active:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  m_hitLayer:
-    UseConstant: 0
-    ConstantValue:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
-  triggerInteraction: 1
-  owner: {fileID: 0}
-  m_HitEffect:
-    UseConstant: 1
-    ConstantValue: {fileID: 569260381}
-    Variable: {fileID: 0}
-  DestroyHitEffect: 0
-  interactorID:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  dontHitOwner:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  CustomReaction: {fileID: 11400000, guid: f25eaaac4ca09b5488d27c0c75429ab1, type: 2}
-  interact:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  react:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  pureDamage:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  statModifier:
-    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
-    modify: 3
-    Value:
-      UseConstant: 1
-      ConstantValue: 10
-      Variable: {fileID: 0}
-  m_cChance:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  cMultiplier:
-    UseConstant: 1
-    ConstantValue: 2
-    Variable: {fileID: 0}
-  m_Force:
-    UseConstant: 1
-    ConstantValue: 50
-    Variable: {fileID: 0}
-  forceMode: 0
-  OnHit:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 513359024}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: GenerateImpulse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnHitPosition:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHitInteractable:
-    m_PersistentCalls:
-      m_Calls: []
-  animator: {fileID: 99674937}
-  AnimatorSpeed:
-    UseConstant: 1
-    ConstantValue: 0.05
-    Variable: {fileID: 0}
-  AnimatorStopTime:
-    UseConstant: 1
-    ConstantValue: 0.2
-    Variable: {fileID: 0}
-  debug: 0
-  Trigger: {fileID: 513359026}
-  SelfStatEnter:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  SelfStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  EnemyStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  OnAttackBegin:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAttackEnd:
-    m_PersistentCalls:
-      m_Calls: []
-  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
-  Editor_Tabs1: 2
 --- !u!1 &527110179
 GameObject:
   m_ObjectHideFlags: 0
@@ -23150,268 +22888,6 @@ Transform:
   m_Father: {fileID: 2101240151}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &754258764
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 754258765}
-  - component: {fileID: 754258769}
-  - component: {fileID: 754258768}
-  - component: {fileID: 754258767}
-  - component: {fileID: 754258766}
-  m_Layer: 2
-  m_Name: Attack Trigger RSword PowerSlice
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &754258765
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754258764}
-  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
-  m_LocalPosition: {x: 1.0247, y: 0.3408, z: -1.3328}
-  m_LocalScale: {x: 5.369827, y: 1.1525832, z: 1.1525832}
-  m_Children: []
-  m_Father: {fileID: 1784885966}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
---- !u!114 &754258766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754258764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ImpulseDefinition:
-    m_ImpulseChannel: 1
-    m_ImpulseShape: 2
-    m_CustomImpulseShape:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ImpulseDuration: 0.2
-    m_ImpulseType: 0
-    m_DissipationRate: 0.25
-    m_RawSignal: {fileID: 0}
-    m_AmplitudeGain: 1
-    m_FrequencyGain: 1
-    m_RepeatMode: 0
-    m_Randomize: 1
-    m_TimeEnvelope:
-      m_AttackShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_DecayShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_AttackTime: 0
-      m_SustainTime: 0.2
-      m_DecayTime: 0.7
-      m_ScaleWithImpact: 1
-      m_HoldForever: 0
-    m_ImpactRadius: 100
-    m_DirectionMode: 0
-    m_DissipationMode: 2
-    m_DissipationDistance: 100
-    m_PropagationSpeed: 343
-  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
---- !u!114 &754258767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754258764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 99674937}
-  parent: 18
-  LocalPos:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  LocalRot:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  PosOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
-  RotOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
---- !u!65 &754258768
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754258764}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.35, y: 0.2, z: 0.2}
-  m_Center: {x: -0.35, y: 0, z: 0}
---- !u!114 &754258769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 754258764}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 9
-  m_Active:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  m_hitLayer:
-    UseConstant: 0
-    ConstantValue:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
-  triggerInteraction: 1
-  owner: {fileID: 0}
-  m_HitEffect:
-    UseConstant: 1
-    ConstantValue: {fileID: 569260381}
-    Variable: {fileID: 0}
-  DestroyHitEffect: 0
-  interactorID:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  dontHitOwner:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  CustomReaction: {fileID: 11400000, guid: 9250d58d6b117ad41ba2825080a0dff6, type: 2}
-  interact:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  react:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  pureDamage:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  statModifier:
-    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
-    modify: 3
-    Value:
-      UseConstant: 1
-      ConstantValue: 10
-      Variable: {fileID: 0}
-  m_cChance:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  cMultiplier:
-    UseConstant: 1
-    ConstantValue: 2
-    Variable: {fileID: 0}
-  m_Force:
-    UseConstant: 1
-    ConstantValue: 50
-    Variable: {fileID: 0}
-  forceMode: 0
-  OnHit:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 754258766}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: GenerateImpulse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnHitPosition:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHitInteractable:
-    m_PersistentCalls:
-      m_Calls: []
-  animator: {fileID: 99674937}
-  AnimatorSpeed:
-    UseConstant: 1
-    ConstantValue: 0.05
-    Variable: {fileID: 0}
-  AnimatorStopTime:
-    UseConstant: 1
-    ConstantValue: 0.2
-    Variable: {fileID: 0}
-  debug: 0
-  Trigger: {fileID: 754258768}
-  SelfStatEnter:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  SelfStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  EnemyStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  OnAttackBegin:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAttackEnd:
-    m_PersistentCalls:
-      m_Calls: []
-  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
-  Editor_Tabs1: 0
 --- !u!1 &756531779
 GameObject:
   m_ObjectHideFlags: 0
@@ -26797,6 +26273,268 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1051414871}
   m_Mesh: {fileID: 4300008, guid: 1d561ab794bc05b44aa243d39691c790, type: 3}
+--- !u!1 &1081063693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1081063694}
+  - component: {fileID: 1081063698}
+  - component: {fileID: 1081063697}
+  - component: {fileID: 1081063696}
+  - component: {fileID: 1081063695}
+  m_Layer: 2
+  m_Name: Attack Trigger RSword UpperCut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1081063694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081063693}
+  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
+  m_LocalPosition: {x: 1.0134, y: 0.34100997, z: -0.63088}
+  m_LocalScale: {x: 3.3639197, y: 0.7220299, z: 0.72203004}
+  m_Children: []
+  m_Father: {fileID: 1784885966}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
+--- !u!114 &1081063695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081063693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 2
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 0
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 0}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 100
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
+--- !u!114 &1081063696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081063693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 99674937}
+  parent: 18
+  LocalPos:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  LocalRot:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  PosOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+  RotOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+--- !u!65 &1081063697
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081063693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 0.2, z: 0.2}
+  m_Center: {x: -0.35, y: 0, z: 0}
+--- !u!114 &1081063698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081063693}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 7
+  m_Active:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_hitLayer:
+    UseConstant: 0
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
+  triggerInteraction: 1
+  owner: {fileID: 0}
+  m_HitEffect:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  DestroyHitEffect: 0
+  interactorID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  dontHitOwner:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  CustomReaction: {fileID: 11400000, guid: f25eaaac4ca09b5488d27c0c75429ab1, type: 2}
+  interact:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  react:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  pureDamage:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  statModifier:
+    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
+    modify: 3
+    Value:
+      UseConstant: 1
+      ConstantValue: 10
+      Variable: {fileID: 0}
+  m_cChance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  cMultiplier:
+    UseConstant: 1
+    ConstantValue: 2
+    Variable: {fileID: 0}
+  m_Force:
+    UseConstant: 1
+    ConstantValue: 50
+    Variable: {fileID: 0}
+  forceMode: 0
+  OnHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1081063695}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: GenerateImpulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnHitPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHitInteractable:
+    m_PersistentCalls:
+      m_Calls: []
+  animator: {fileID: 99674937}
+  AnimatorSpeed:
+    UseConstant: 1
+    ConstantValue: 0.05
+    Variable: {fileID: 0}
+  AnimatorStopTime:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  debug: 0
+  Trigger: {fileID: 1081063697}
+  SelfStatEnter:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  SelfStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  EnemyStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  OnAttackBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAttackEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
+  Editor_Tabs1: 2
 --- !u!1 &1109484542
 GameObject:
   m_ObjectHideFlags: 0
@@ -29100,10 +28838,10 @@ Transform:
   - {fileID: 1657636762}
   - {fileID: 1442185858}
   - {fileID: 834142248}
-  - {fileID: 17592779}
-  - {fileID: 513359023}
-  - {fileID: 1971783665}
-  - {fileID: 754258765}
+  - {fileID: 1809458616}
+  - {fileID: 1081063694}
+  - {fileID: 83709415}
+  - {fileID: 1795458695}
   m_Father: {fileID: 392941880}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29153,6 +28891,530 @@ MonoBehaviour:
     bone'
   reference: {fileID: 0}
   ShowDescription: 0
+--- !u!1 &1795458694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795458695}
+  - component: {fileID: 1795458699}
+  - component: {fileID: 1795458698}
+  - component: {fileID: 1795458697}
+  - component: {fileID: 1795458696}
+  m_Layer: 2
+  m_Name: Attack Trigger RSword Big Kick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1795458695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795458694}
+  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
+  m_LocalPosition: {x: 1.02, y: 0.34000003, z: -1.18}
+  m_LocalScale: {x: 6.2622395, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 1784885966}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
+--- !u!114 &1795458696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795458694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 2
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 0
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 0}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 100
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
+--- !u!114 &1795458697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795458694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 99674937}
+  parent: 18
+  LocalPos:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  LocalRot:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  PosOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+  RotOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+--- !u!65 &1795458698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795458694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 0.2, z: 0.2}
+  m_Center: {x: -0.35, y: 0, z: 0}
+--- !u!114 &1795458699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795458694}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 9
+  m_Active:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_hitLayer:
+    UseConstant: 0
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
+  triggerInteraction: 1
+  owner: {fileID: 0}
+  m_HitEffect:
+    UseConstant: 1
+    ConstantValue: {fileID: 0}
+    Variable: {fileID: 0}
+  DestroyHitEffect: 0
+  interactorID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  dontHitOwner:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  CustomReaction: {fileID: 11400000, guid: 9250d58d6b117ad41ba2825080a0dff6, type: 2}
+  interact:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  react:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  pureDamage:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  statModifier:
+    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
+    modify: 3
+    Value:
+      UseConstant: 1
+      ConstantValue: 10
+      Variable: {fileID: 0}
+  m_cChance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  cMultiplier:
+    UseConstant: 1
+    ConstantValue: 2
+    Variable: {fileID: 0}
+  m_Force:
+    UseConstant: 1
+    ConstantValue: 50
+    Variable: {fileID: 0}
+  forceMode: 0
+  OnHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1795458696}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: GenerateImpulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnHitPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHitInteractable:
+    m_PersistentCalls:
+      m_Calls: []
+  animator: {fileID: 99674937}
+  AnimatorSpeed:
+    UseConstant: 1
+    ConstantValue: 0.05
+    Variable: {fileID: 0}
+  AnimatorStopTime:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  debug: 0
+  Trigger: {fileID: 1795458698}
+  SelfStatEnter:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  SelfStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  EnemyStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  OnAttackBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAttackEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
+  Editor_Tabs1: 2
+--- !u!1 &1809458615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1809458616}
+  - component: {fileID: 1809458620}
+  - component: {fileID: 1809458619}
+  - component: {fileID: 1809458618}
+  - component: {fileID: 1809458617}
+  m_Layer: 2
+  m_Name: Attack Trigger RSword Big
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1809458616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809458615}
+  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
+  m_LocalPosition: {x: 1.02, y: 0.34000003, z: -1.18}
+  m_LocalScale: {x: 6.2622395, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 1784885966}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
+--- !u!114 &1809458617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809458615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 2
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 0
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 0}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 100
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
+--- !u!114 &1809458618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809458615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 99674937}
+  parent: 18
+  LocalPos:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  LocalRot:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  PosOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+  RotOffset:
+    UseConstant: 1
+    ConstantValue: {x: 0, y: 0, z: 0}
+    Variable: {fileID: 0}
+--- !u!65 &1809458619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809458615}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.35, y: 0.2, z: 0.2}
+  m_Center: {x: -0.35, y: 0, z: 0}
+--- !u!114 &1809458620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809458615}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 6
+  m_Active:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  m_hitLayer:
+    UseConstant: 0
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
+  triggerInteraction: 1
+  owner: {fileID: 0}
+  m_HitEffect:
+    UseConstant: 1
+    ConstantValue: {fileID: 569260381}
+    Variable: {fileID: 0}
+  DestroyHitEffect: 0
+  interactorID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  dontHitOwner:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  CustomReaction: {fileID: 11400000, guid: f25eaaac4ca09b5488d27c0c75429ab1, type: 2}
+  interact:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  react:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  pureDamage:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  statModifier:
+    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
+    modify: 3
+    Value:
+      UseConstant: 1
+      ConstantValue: 10
+      Variable: {fileID: 0}
+  m_cChance:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  cMultiplier:
+    UseConstant: 1
+    ConstantValue: 2
+    Variable: {fileID: 0}
+  m_Force:
+    UseConstant: 1
+    ConstantValue: 50
+    Variable: {fileID: 0}
+  forceMode: 0
+  OnHit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1809458617}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: GenerateImpulse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnHitPosition:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHitInteractable:
+    m_PersistentCalls:
+      m_Calls: []
+  animator: {fileID: 99674937}
+  AnimatorSpeed:
+    UseConstant: 1
+    ConstantValue: 0.05
+    Variable: {fileID: 0}
+  AnimatorStopTime:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  debug: 0
+  Trigger: {fileID: 1809458619}
+  SelfStatEnter:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  SelfStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  EnemyStatExit:
+    ID: {fileID: 0}
+    modify: 0
+    Value:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  OnAttackBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAttackEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
+  Editor_Tabs1: 2
 --- !u!1 &1817471348
 GameObject:
   m_ObjectHideFlags: 0
@@ -29677,268 +29939,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1971783664
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1971783665}
-  - component: {fileID: 1971783669}
-  - component: {fileID: 1971783668}
-  - component: {fileID: 1971783667}
-  - component: {fileID: 1971783666}
-  m_Layer: 2
-  m_Name: Attack Trigger RSword Stab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1971783665
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971783664}
-  m_LocalRotation: {x: -0.5086405, y: -0.49120748, z: 0.5006639, w: -0.49933535}
-  m_LocalPosition: {x: 1.0134, y: 0.34101, z: -0.63088}
-  m_LocalScale: {x: 3.3639207, y: 0.7220342, z: 0.7220342}
-  m_Children: []
-  m_Father: {fileID: 1784885966}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 88.925, y: -90, z: 180.923}
---- !u!114 &1971783666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971783664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ImpulseDefinition:
-    m_ImpulseChannel: 1
-    m_ImpulseShape: 2
-    m_CustomImpulseShape:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ImpulseDuration: 0.2
-    m_ImpulseType: 0
-    m_DissipationRate: 0.25
-    m_RawSignal: {fileID: 0}
-    m_AmplitudeGain: 1
-    m_FrequencyGain: 1
-    m_RepeatMode: 0
-    m_Randomize: 1
-    m_TimeEnvelope:
-      m_AttackShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_DecayShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      m_AttackTime: 0
-      m_SustainTime: 0.2
-      m_DecayTime: 0.7
-      m_ScaleWithImpact: 1
-      m_HoldForever: 0
-    m_ImpactRadius: 100
-    m_DirectionMode: 0
-    m_DissipationMode: 2
-    m_DissipationDistance: 100
-    m_PropagationSpeed: 343
-  m_DefaultVelocity: {x: 0, y: 0.1, z: 0}
---- !u!114 &1971783667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971783664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e77eb7d06c33944491558655d9ff7a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 99674937}
-  parent: 18
-  LocalPos:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  LocalRot:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  PosOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
-  RotOffset:
-    UseConstant: 1
-    ConstantValue: {x: 0, y: 0, z: 0}
-    Variable: {fileID: 0}
---- !u!65 &1971783668
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971783664}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.35, y: 0.2, z: 0.2}
-  m_Center: {x: -0.35, y: 0, z: 0}
---- !u!114 &1971783669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971783664}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e4977ce6c4031944a4d6d786517e86e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  index: 8
-  m_Active:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  m_hitLayer:
-    UseConstant: 0
-    ConstantValue:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    Variable: {fileID: 11400000, guid: f489db1856e43dc47b175dd125135bdc, type: 2}
-  triggerInteraction: 1
-  owner: {fileID: 0}
-  m_HitEffect:
-    UseConstant: 1
-    ConstantValue: {fileID: 569260381}
-    Variable: {fileID: 0}
-  DestroyHitEffect: 0
-  interactorID:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  dontHitOwner:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  CustomReaction: {fileID: 11400000, guid: e08d307043fa48e44a91b6eba5f48a8e, type: 2}
-  interact:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  react:
-    UseConstant: 1
-    ConstantValue: 1
-    Variable: {fileID: 0}
-  pureDamage:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  statModifier:
-    ID: {fileID: 11400000, guid: d6b3e636d59a6c547a2cad40b69f4432, type: 2}
-    modify: 3
-    Value:
-      UseConstant: 1
-      ConstantValue: 10
-      Variable: {fileID: 0}
-  m_cChance:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  cMultiplier:
-    UseConstant: 1
-    ConstantValue: 2
-    Variable: {fileID: 0}
-  m_Force:
-    UseConstant: 1
-    ConstantValue: 50
-    Variable: {fileID: 0}
-  forceMode: 0
-  OnHit:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1971783666}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: GenerateImpulse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnHitPosition:
-    m_PersistentCalls:
-      m_Calls: []
-  OnHitInteractable:
-    m_PersistentCalls:
-      m_Calls: []
-  animator: {fileID: 99674937}
-  AnimatorSpeed:
-    UseConstant: 1
-    ConstantValue: 0.05
-    Variable: {fileID: 0}
-  AnimatorStopTime:
-    UseConstant: 1
-    ConstantValue: 0.2
-    Variable: {fileID: 0}
-  debug: 0
-  Trigger: {fileID: 1971783668}
-  SelfStatEnter:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  SelfStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  EnemyStatExit:
-    ID: {fileID: 0}
-    modify: 0
-    Value:
-      UseConstant: 1
-      ConstantValue: 0
-      Variable: {fileID: 0}
-  OnAttackBegin:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAttackEnd:
-    m_PersistentCalls:
-      m_Calls: []
-  DebugColor: {r: 1, g: 0.25, b: 0, a: 0.15}
-  Editor_Tabs1: 0
 --- !u!1 &2080683825
 GameObject:
   m_ObjectHideFlags: 0
