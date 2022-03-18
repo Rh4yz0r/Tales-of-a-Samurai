@@ -151,7 +151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &260319345
 GameObject:
@@ -211,7 +211,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &458956276
 GameObject:
@@ -445,6 +445,69 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7721b17458de7274da9fb6df12db1326, type: 3}
+--- !u!1 &1042363360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1042363361}
+  - component: {fileID: 1042363362}
+  m_Layer: 0
+  m_Name: Wander Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1042363361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042363360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.12, y: 0.1653, z: 6.21}
+  m_LocalScale: {x: 18.2561, y: 0.0756, z: 18.118132}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1042363362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042363360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74566a3889652fa469dba5dca64153b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointType: 0
+  stoppingDistance: 1
+  slowingDistance: 0
+  m_height: 0.5
+  m_WaitTime:
+    minValue: 1
+    maxValue: 5
+  DebugColor: {r: 1, g: 0, b: 0, a: 1}
+  nextWayPoints: []
+  OnTargetArrived:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AreaType: 0
+  radius: 0.5
+  BoxArea: {x: 10, y: 1, z: 10}
+  WanderWeight: 1
+  MainArea: {fileID: 1042363362}
+  ChildWanderAreas:
+  - {fileID: 1042363362}
+  ShowRadius: 0
 --- !u!1 &1304701072
 GameObject:
   m_ObjectHideFlags: 0
@@ -18301,7 +18364,7 @@ MonoBehaviour:
   TurnAngle: 90
   LookAtOffset: 1
   slowingLimit: 0.3
-  target: {fileID: 0}
+  target: {fileID: 1042363361}
   nextTarget: {fileID: 0}
   debug: 0
   debugGizmos: 1
@@ -30909,7 +30972,7 @@ Transform:
   - {fileID: 1655869247107830234}
   - {fileID: 1655869247671213169}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1655869248319626168
 MonoBehaviour:
@@ -35574,7 +35637,7 @@ GameObject:
   - component: {fileID: 1655869248319626175}
   - component: {fileID: 1655869248319626172}
   m_Layer: 20
-  m_Name: Samurai 5
+  m_Name: Guard
   m_TagString: Animal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89675,7 +89738,7 @@ Transform:
   - {fileID: 9070123353998382473}
   - {fileID: 9070123354563336226}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &9070123355755175910
 Rigidbody:
@@ -98893,7 +98956,7 @@ Transform:
   - {fileID: 6555831965591921744}
   - {fileID: 3173792091904838584}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &9078496555496694166
 Transform:
