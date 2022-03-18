@@ -55,7 +55,7 @@ MonoBehaviour:
   transitions:
   - decision: {fileID: 4349938423413343354}
     trueState: {fileID: 11400000, guid: 02d5f4c31d44d7240afb864e130b7ba3, type: 2}
-    falseState: {fileID: 11400000}
+    falseState: {fileID: 0}
   GizmoStateColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   CreateTaskAsset: 1
   CreateDecisionAsset: 1
