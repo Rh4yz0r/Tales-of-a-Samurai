@@ -24,7 +24,7 @@ MonoBehaviour:
     Variable: {fileID: 0}
   LookRange:
     UseConstant: 1
-    ConstantValue: 8
+    ConstantValue: 5
     Variable: {fileID: 0}
   LookAngle: 200
   lookFor: 0

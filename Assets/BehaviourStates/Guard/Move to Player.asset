@@ -20,8 +20,8 @@ MonoBehaviour:
     Variable: {fileID: 0}
   UpdateInterval: 0.2
   WaitForPreviousTask: 0
-  targetType: 0
-  TargetT: {fileID: 11400000, guid: 0c45a2c5e368c004eb9efaa6152aa0ea, type: 2}
+  targetType: 4
+  TargetT: {fileID: 0}
   TargetG: {fileID: 0}
   TargetRG: {fileID: 0}
   rtype: 1
@@ -31,6 +31,6 @@ MonoBehaviour:
     Variable: {fileID: 0}
   RTName:
     UseConstant: 1
-    ConstantValue: 
+    ConstantValue: PlayerAITarget
     Variable: {fileID: 0}
   MoveToTarget: 1

@@ -33,7 +33,7 @@ MonoBehaviour:
   Play: 1
   CoolDown:
     UseConstant: 1
-    ConstantValue: 2
+    ConstantValue: 1.5
     Variable: {fileID: 0}
   ModeAngle: 160
   lookAtAlign: 1
