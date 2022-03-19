@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b00a63bfc37e3794ea3b0af5a3c6381e, type: 3}
-  m_Name: Look for Player
+  m_Name: Spot Player
   m_EditorClassIdentifier: 
   Description: The Animal will look for an Object using a cone view
   DecisionID:
@@ -24,9 +24,9 @@ MonoBehaviour:
     Variable: {fileID: 0}
   LookRange:
     UseConstant: 1
-    ConstantValue: 10
+    ConstantValue: 5
     Variable: {fileID: 0}
-  LookAngle: 360
+  LookAngle: 200
   lookFor: 0
   ObstacleLayer:
     UseConstant: 1

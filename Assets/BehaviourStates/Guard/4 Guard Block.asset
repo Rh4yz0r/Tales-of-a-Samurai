@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1298585000455376020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb15355fb5af304ebab1307cd8dab67, type: 3}
+  m_Name: D_WaitDecision
+  m_EditorClassIdentifier: 
+  Description: Type Description Here
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  WaitMinTime:
+    UseConstant: 1
+    ConstantValue: 5
+    Variable: {fileID: 0}
+  WaitMaxTime:
+    UseConstant: 1
+    ConstantValue: 5
+    Variable: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10,25 +40,64 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
-  m_Name: 3 Guard Attack
+  m_Name: 4 Guard Block
   m_EditorClassIdentifier: 
   ID:
     UseConstant: 1
     ConstantValue: 0
     Variable: {fileID: 0}
   tasks:
-  - {fileID: 11400000, guid: 83960d09321148f46b61dcb653139223, type: 2}
+  - {fileID: 3296681662694259562}
   transitions:
-  - decision: {fileID: 8460221977877219919}
-    trueState: {fileID: 0}
-    falseState: {fileID: 11400000, guid: e4b5cc9d9ab7e934bacfe816af2823ce, type: 2}
-  - decision: {fileID: 3236463751577871922}
-    trueState: {fileID: 11400000, guid: 91793ce3c89722742adc2b56e8fb5a61, type: 2}
+  - decision: {fileID: 11400000, guid: e1a81299eba7fb043bb3002813c77124, type: 2}
+    trueState: {fileID: 11400000, guid: e4b5cc9d9ab7e934bacfe816af2823ce, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 9111391732826445876}
+    trueState: {fileID: 11400000, guid: e4b5cc9d9ab7e934bacfe816af2823ce, type: 2}
     falseState: {fileID: 0}
   GizmoStateColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   CreateTaskAsset: 1
   CreateDecisionAsset: 1
---- !u!114 &3236463751577871922
+--- !u!114 &3296681662694259562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfcc53f890e3864b941cd0e3c01c970, type: 3}
+  m_Name: T_PlayModeTask
+  m_EditorClassIdentifier: 
+  Description: Plays a mode on the Animal(Self or the Target)
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  UpdateInterval: 0.2
+  WaitForPreviousTask: 0
+  modeID: {fileID: 11400000, guid: 7b08991ff6605a6409a4857c2fcd94a2, type: 2}
+  AbilityID:
+    UseConstant: 1
+    ConstantValue: -99
+    Variable: {fileID: 0}
+  ModePower:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  near: 0
+  affect: 0
+  Play: 1
+  CoolDown:
+    UseConstant: 1
+    ConstantValue: 2
+    Variable: {fileID: 0}
+  ModeAngle: 290
+  lookAtAlign: 1
+  IgnoreFirstCoolDown: 1
+  alignTime: 0.3
+--- !u!114 &9111391732826445876
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -51,71 +120,9 @@ MonoBehaviour:
     ConstantValue: 1
     Variable: {fileID: 0}
   checkOn: 1
-  ModeState: 1
+  ModeState: 2
   ModeID: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
   Ability:
     UseConstant: 1
     ConstantValue: 0
     Variable: {fileID: 0}
---- !u!114 &8281062053571332712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bfcc53f890e3864b941cd0e3c01c970, type: 3}
-  m_Name: T_PlayModeTask
-  m_EditorClassIdentifier: 
-  Description: Plays a mode on the Animal(Self or the Target)
-  MessageID:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  UpdateInterval: 0.2
-  WaitForPreviousTask: 0
-  modeID: {fileID: 0}
-  AbilityID:
-    UseConstant: 1
-    ConstantValue: -99
-    Variable: {fileID: 0}
-  ModePower:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  near: 0
-  affect: 0
-  Play: 1
-  CoolDown:
-    UseConstant: 1
-    ConstantValue: 2
-    Variable: {fileID: 0}
-  ModeAngle: 360
-  lookAtAlign: 0
-  IgnoreFirstCoolDown: 1
-  alignTime: 0.3
---- !u!114 &8460221977877219919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 786ed7d61fac2d048ab4ca3c778ef46e, type: 3}
-  m_Name: D_ArriveDecision
-  m_EditorClassIdentifier: 
-  Description: Type Description Here
-  DecisionID:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  send: 0
-  interval:
-    UseConstant: 1
-    ConstantValue: 0.2
-    Variable: {fileID: 0}
-  TargetName: 
