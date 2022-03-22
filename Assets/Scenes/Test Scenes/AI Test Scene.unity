@@ -61406,7 +61406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1655869248319626173}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: 6.123927, y: 0.0000009536743, z: 1.426057}
+  m_LocalPosition: {x: 8.98, y: 0.0000009536743, z: 5.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1655869248612770229}
@@ -123058,8 +123058,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9070123355755175918}
-  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -4.760006, y: 0, z: -42.04002}
+  m_LocalRotation: {x: -0, y: 0.0000004768371, z: -0, w: 1}
+  m_LocalPosition: {x: 9.25, y: 0, z: -5.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9070123355513415142}
@@ -123068,7 +123068,7 @@ Transform:
   - {fileID: 9070123354563336226}
   m_Father: {fileID: 0}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &9070123355755175910
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -128518,6 +128518,7 @@ GameObject:
   - component: {fileID: 9070123355755175917}
   - component: {fileID: 9070123355755175916}
   - component: {fileID: 9070123355755175919}
+  - component: {fileID: 9070123355755175920}
   m_Layer: 20
   m_Name: Player
   m_TagString: Animal
@@ -128559,6 +128560,18 @@ MonoBehaviour:
     weight: 1
     external: 0
   debug: 1
+--- !u!114 &9070123355755175920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9070123355755175918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea97aafd1944ca447a98ce54095e2dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &9070123355755927982
 MonoBehaviour:
   m_ObjectHideFlags: 0
